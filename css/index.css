@@ -1,0 +1,644 @@
+.indexShow {
+    width: 1340px;
+    height: 815px;
+    margin-top: 150px;
+    /* margin-right: 100px; */
+    background-color: #121935;
+}
+
+.indexShow .goodsShow {
+    float: left;
+    width: 120px;
+    height: 585px;
+    background-color: #040449;
+    margin: 120px 15px;
+    border: 5px dotted #f7e090;
+
+}
+
+.indexShow .goodsShow .font {
+
+    width: 45px;
+    height: 175px;
+    font-size: 48px;
+    margin: 150px 34px;
+    color: #f7e090
+}
+
+.indexShow .goodsTop {
+    float: left;
+    width: 1150px;
+    height: 410px;
+
+}
+
+.indexShow .goodsTop ul li {
+    overflow: hidden;
+    float: left;
+    width: 300px;
+    height: 415px;
+    margin-right: 30px;
+
+}
+
+.indexShow ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.indexShow .goodsTop ul li:first-child {
+    float: left;
+    width: 450px;
+    height: 415px;
+}
+
+.indexShow .goodsUnder {
+    float: left;
+    width: 1150px;
+    height: 365px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.indexShow .goodsUnder ul li {
+    overflow: hidden;
+    float: left;
+    width: 450px;
+    height: 365px;
+    margin-right: 30px;
+
+}
+
+.indexShow .goodsUnder ul li:last-child {
+    position: relative;
+    width: 630px;
+}
+
+.indexShow .goodsUnder ul li lable {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 20px
+}
+
+.indexShow .goodsUnder ul li lable a {
+    color: #f7e090;
+}
+
+.detail {
+    position: relative;
+    width: 1340px;
+    height: 510px;
+    margin-top: 65px;
+}
+
+.detail .dongtai {
+    float: left;
+    width: 760px;
+    height: 60px;
+    background-color: #151649;
+    border-radius: 15px;
+    line-height: 58px;
+    font-size: 20px;
+    color: #f7e090;
+}
+
+.detail .dongtai span {
+    margin-left: 100px;
+    color: #f4cdaf;
+}
+
+.detail .active {
+    position: absolute;
+    float: right;
+    width: 570px;
+    height: 60px;
+    background-color: #151649;
+    border-radius: 15px;
+    line-height: 58px;
+    font-size: 20px;
+    color: #f7e090;
+    top: 0px;
+    right: 0px;
+}
+
+.detail .left {
+    float: left;
+    width: 760px;
+    height: 400px;
+    background-color: #171952;
+}
+
+.detail .right {
+    float: right;
+    width: 570px;
+    height: 400px;
+    background-color: #171952;
+}
+
+.detail .leftUl {
+    float: left;
+    width: 700px;
+    height: 350px;
+    /* background-color: #171952; */
+    /* margin-left: 100px; */
+    margin-top: 50px;
+}
+
+.detail .leftUl ul li {
+    font-size: 24px;
+    margin-bottom: 32px;
+
+}
+
+.detail .leftUl ul li span {
+    float: right;
+    color: #f7e090;
+}
+
+.detail .leftUl ul li a {
+    color: #f7e090;
+}
+
+.detail .leftUl ul li a:hover {
+    color: red;
+
+}
+
+.detail .rightUl {
+    float: right;
+    width: 570px;
+    height: 390px;
+    /* background-color: #171952; */
+    margin-top: 20px;
+    margin-bottom: 45px;
+
+}
+
+.detail .rightUl ul li {
+    margin-bottom: 65px;
+    font-size: 20px;
+    color: #f7e090;
+}
+
+.detail .rightUl ul li span {
+    display: block;
+    font-size: 36px;
+}
+
+.detail .rightUl ul li lable {
+    float: left;
+    display: block;
+    margin-right: 70px;
+}
+
+.detail .rightUl .tips {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    color: #f7e090;
+}
+
+.centerImg {
+    position: relative;
+    width: 100%;
+    height: 630px;
+}
+
+.centerImg .box {
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    left: 410px;
+    top: 120px;
+    padding-top: 90px;
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+    /* background-color: red; */
+}
+
+.centerImg .box span {
+    display: inline-block;
+    width: 300px;
+    height: 80px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.centerImg .box a {
+    color: #fff;
+}
+
+.centerImg .box a span:hover {
+    background-color: #a00030;
+}
+
+.centerImg img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.hotSpot {
+    width: 1340px;
+    height: 725px;
+    /* background-color: pink; */
+    margin-top: 10px;
+    margin-bottom: 65px;
+    border: 5px dashed #0d1226;
+    border-radius: 15px;
+}
+
+.hotSpot .left {
+    float: left;
+    width: 450px;
+    height: 620px;
+    margin-top: 90px;
+    margin-right: 30px;
+}
+
+.hotSpot .left ul li {
+    font-size: 24px;
+    margin-bottom: 45px;
+    margin-left: 25px;
+    color: #f7e090;
+    /* list-style-type: circle */
+}
+
+.hotSpot .left ul li:first-child {
+    margin-top: 15px;
+    font-size: 48px;
+    margin-left: 0px;
+}
+
+.hotSpot .leftImg {
+    position: relative;
+    float: left;
+    width: 370px;
+    height: 525px;
+    /* margin-left: 80px;
+    margin-bottom: 50px;
+    margin-top: 80px; */
+    margin: 120px 0px 50px 40px;
+}
+
+.hotSpot .rightImg {
+    position: relative;
+    float: right;
+    width: 370px;
+    height: 525px;
+    /* margin-left: 80px;
+    margin-bottom: 50px;
+    margin-top: 80px; */
+    margin: 120px 25px 50px;
+    /* background-color: red; */
+}
+
+.hotSpot .leftImg img,
+.hotSpot .rightImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.hotSpot .leftImg span {
+    position: absolute;
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    color: #f7e090;
+    background-color: black;
+    opacity: 0.6;
+    bottom: 0px;
+}
+
+.hotSpot .rightImg span {
+    position: absolute;
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    color: #f7e090;
+    background-color: black;
+    opacity: 0.6;
+    bottom: 0px;
+}
+
+.hero {
+    width: 100%;
+    height: 120px;
+    background-color: #0d1226;
+}
+
+.big {
+    width: 100%;
+}
+
+.hero h2 {
+    width: 100%;
+    margin-left: 90px;
+    font-size: 48px;
+    color: #f7e090;
+    line-height: 120px;
+}
+
+.heroContent {
+    width: 1340px;
+    height: 620px;
+    margin-left: 90px;
+    background-color: #0d1226;
+}
+
+.heroContent .Img {
+    width: 100%;
+    height: 480px;
+    margin: 70px auto;
+    /* background-color: pink; */
+}
+
+.heroContent .Img ul li {
+    /* display: block; */
+    position: relative;
+    float: left;
+    width: 325px;
+    height: 480px;
+    margin-right: 13px;
+    /* background-color: blue; */
+}
+
+.heroContent .Img ul li:last-child {
+    margin-right: 0px;
+}
+
+.heroContent .Img ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.heroContent .Img ul li span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 85px;
+    color: #000;
+    background-color: #f9f8be;
+    bottom: 0px;
+}
+
+.heroContent .Img ul li:last-child span {
+    line-height: 40px;
+}
+
+.storys {
+    width: 1340px;
+    height: 740px;
+    /* background-color: green; */
+    margin-top: 75px;
+}
+
+.storys .gushiji {
+    float: left;
+    width: 830px;
+    height: 100%;
+    /* background-color: pink; */
+    border: 5px dotted #f7e090;
+}
+
+.storys .gushiji h2 {
+    text-align: center;
+    color: #f7e090;
+    font-size: 48px;
+}
+
+.storys .gushiji ul li {
+    position: relative;
+    float: left;
+    width: 390px;
+    height: 315px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    /* background-color: purple; */
+}
+
+.storys .gushiji ul li img {
+    width: 100%;
+    height: 87%;
+}
+
+.storys .gushiji ul li span {
+    display: block;
+    /* position: absolute; */
+    /* height: 28px; */
+    width: 100%;
+    /* bottom: 0px; */
+    text-align: center;
+    font-size: 16px;
+    line-height: 45px;
+    color: #f7e090;
+}
+
+.storys .guankan {
+    float: right;
+    width: 480px;
+    height: 100%;
+    /* background-color: pink; */
+}
+
+.storys .guankan h2 {
+    height: 78px;
+    background-color: #2a317d;
+}
+
+.storys .guankan h2 img {
+    margin-left: 40px;
+    float: left;
+}
+
+.storys .guankan h2 span {
+    display: block;
+    float: left;
+    height: 100px;
+    color: #f7e090;
+    font-size: 24px;
+    line-height: 80px;
+    margin-left: 15px;
+}
+
+.storys .guankan .under {
+    width: 480px;
+    height: 662px;
+    background-color: #63709b;
+}
+
+.storys .guankan .under img {
+    width: 100%;
+    height: 80%;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+
+.storys .guankan .under h3 {
+    font-size: 36px;
+    margin-left: 10px;
+    color: #f7e090;
+}
+
+.storys .guankan .under h6 {
+    font-size: 16px;
+    margin-left: 10px;
+    color: #f7e090;
+}
+
+.roadShow {
+    width: 1340px;
+    height: 460px;
+    /* background-color: pink; */
+    margin: 30px auto;
+}
+
+.roadShow .qingzang {
+    position: relative;
+    float: left;
+    width: 650px;
+    height: 100%;
+    /* background-color: green; */
+}
+
+.roadShow .chuanzang {
+    position: relative;
+    float: right;
+    width: 650px;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.roadShow h2 {
+    width: 650px;
+    height: 100px;
+    font-size: 48px;
+    text-align: center;
+    color: #f7e090;
+}
+
+.roadShow img {
+    width: 100%;
+    height: 360px;
+}
+
+.roadShow span {
+    display: block;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    font-size: 16px;
+    background-color: #fff;
+    opacity: 0.3;
+    line-height: 50px;
+    text-align: right;
+}
+
+.museum {
+    width: 100%;
+    height: 165px;
+    background-color: #0d1226;
+    font-size: 48px;
+    text-align: center;
+    line-height: 165px;
+    color: #f7e090;
+    font-weight: 700;
+}
+
+.museumImg {
+    width: 1340px;
+    height: 610px;
+    margin: 20px auto;
+    /* background-color: green; */
+}
+
+.museumImg .left {
+    float: left;
+    width: 980px;
+    height: 100%;
+    /* background-color: pink; */
+}
+
+.museumImg .left .top {
+    width: 100%;
+    height: 290px;
+    margin: 15px auto;
+    /* background-color: yellow; */
+}
+
+.museumImg .left .top ul li {
+    position: relative;
+    float: left;
+    width: 315px;
+    height: 290px;
+    margin-right: 11px;
+    /* background-color: #fff; */
+}
+
+.museumImg .left .under ul li {
+
+    float: left;
+    width: 478px;
+    height: 290px;
+    margin-right: 11px;
+    /* background-color: #fff; */
+}
+
+.museumImg .left .top ul li span {
+    display: block;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    bottom: 0px;
+    color: #f7e090;
+}
+
+.museumImg .left .under {
+    width: 100%;
+    height: 290px;
+}
+
+.museumImg .right {
+    position: relative;
+    float: left;
+    width: 360px;
+    height: 100%;
+    /* background-color: blue; */
+
+}
+
+.museumImg .right img {
+    width: 100%;
+    height: 100%;
+}
+
+.museumImg ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.museumImg .right span {
+    display: block;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    bottom: 0px;
+    color: #f7e090;
+}

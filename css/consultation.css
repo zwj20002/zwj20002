@@ -1,0 +1,161 @@
+.box {
+    width: 100%;
+}
+
+.zixun {
+    width: 350px;
+    height: 80px;
+    margin: 50px auto;
+    margin-bottom: 0PX;
+    margin-left: 100px;
+    background-color: #033571;
+    color: #fff;
+    line-height: 80px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.fenlei {
+    width: 1200px;
+    height: 650px;
+    margin-left: 150px;
+    /* background-color: green; */
+}
+
+.fenlei .left {
+    float: left;
+    width: 250px;
+    height: 100%;
+    background-color: #00479d;
+}
+
+.fenlei .left ul li {
+    width: 100%;
+    height: 70px;
+    /* background-color: purple; */
+    margin-top: 100px;
+    font-size: 24px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.fenlei .left ul li a {
+    color: #000;
+}
+
+.fenlei .left ul li a:hover {
+    color: #fff;
+
+}
+
+.fenlei .left ul li:first-child {
+    color: #fff;
+    background-color: #497cf1;
+}
+
+.fenlei .left ul li:hover {
+    background-color: #497cf1;
+}
+
+.fenlei .right {
+    float: left;
+    width: 700px;
+    height: 100%;
+    /* background-color: pink; */
+    margin-left: 100px;
+}
+
+.fenlei .right .xiangmu {
+    width: 250px;
+    height: 70px;
+    margin: 50px auto;
+    margin-bottom: 4PX;
+    margin-left: 0px;
+    background-color: #497cf1;
+    color: #fff;
+    line-height: 70px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.fenlei .right ul li {
+    width: 100%;
+    height: 40px;
+    margin: 30px auto;
+    color: #fff;
+    /* background-color: #fff; */
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.yugao {
+    width: 1200px;
+    height: 850px;
+
+    /* background-color: pink; */
+    margin: 80px auto;
+}
+
+.yugao .left {
+    float: left;
+    width: 250px;
+    height: 800px;
+    margin-top: 50px;
+    background-color: #00479d;
+}
+
+.yugao .left h2 {
+    width: 250px;
+    height: 70px;
+    margin: 50px auto;
+    margin-bottom: 4PX;
+    margin-left: 0px;
+    color: #fff;
+    line-height: 70px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.yugao .left span {
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.yugao .right {
+    float: left;
+    width: 900px;
+    height: 100%;
+    margin-left: 50px;
+    /* background-color: green; */
+}
+
+.yugao .right ul li {
+    float: left;
+    width: 400px;
+    height: 425px;
+    margin-right: 50px;
+    /* background-color: blue; */
+}
+
+.yugao .right ul li span {
+    display: block;
+    width: 400px;
+    height: 75px;
+    /* background-color: #fff; */
+    font-size: 16px;
+    line-height: 75px;
+    text-align: center;
+    color: #fff;
+}
+
+.yugao .right ul li img {
+    width: 100%;
+    height: 350px;
+}
+
+.yugao .right ul li span img {
+    width: 16px;
+    height: 16px;
+}
